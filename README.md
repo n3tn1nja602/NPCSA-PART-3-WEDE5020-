@@ -77,7 +77,7 @@ Repository: [NPSCA-PART-3-WEDE5020](https://github.com/n3tn1nja602/NPSCA-PART-3-
 
 ## 9. References
 
-National Council of SPCAs (NSPCA). Available at: https://nspca.co.za/ (Accessed: 20October 2026).
+National Council of SPCAs (NSPCA). Available at: https://nspca.co.za/ (Accessed: 20 October 2026).
 
 GitHub. Available at: https://github.com/ (Accessed: 20 October 2026).
 
