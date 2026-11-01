@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Send an enquiry about NSPCA animal welfare work.">
+<title>Enquiry | NSPCA</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<header>
+<div class="logo"><a href="index.html">NSPCA</a></div>
+<nav aria-label="Main navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="enquiry.html" aria-current="page">Enquiry</a></li>
+<li><a href="donate.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section class="page-banner">
+<h1>Make an Enquiry</h1>
+<p>Have a question about animal welfare? Send us your enquiry.</p>
+</section>
+
+<section class="content-section form-section">
+<h2>Enquiry Form</h2>
+<p>Complete the fields below so your enquiry can be understood.</p>
+
+<form class="site-form" id="enquiry-form">
+<div class="form-group">
+<label for="enquiry-name">Full name</label>
+<input type="text" id="enquiry-name" name="name" required>
+</div>
+
+<div class="form-group">
+<label for="enquiry-email">Email address</label>
+<input type="email" id="enquiry-email" name="email" required>
+</div>
+
+<div class="form-group">
+<label for="enquiry-phone">Phone number (optional)</label>
+<input type="tel" id="enquiry-phone" name="phone">
+</div>
+
+<div class="form-group">
+<label for="enquiry-topic">Enquiry topic</label>
+<select id="enquiry-topic" name="topic" required>
+<option value="">Choose a topic</option>
+<option value="animal-welfare">Animal welfare</option>
+<option value="services">Services</option>
+<option value="donations">Donations</option>
+<option value="volunteering">Volunteering</option>
+<option value="other">Other</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="enquiry-message">Your message</label>
+<textarea id="enquiry-message" name="message" rows="6" required></textarea>
+</div>
+
+<button class="button" type="submit">Submit Enquiry</button>
+<p id="enquiry-feedback" class="form-feedback" aria-live="polite"></p>
+</form>
+
+<p>
+Please do not use this demonstration form for emergencies.
+For an urgent animal welfare concern, contact the appropriate
+local animal welfare authority directly.
+</p>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2026 National Council of SPCAs. All rights reserved.</p>
+<p>Promoting animal welfare and protection in South Africa.</p>
+</footer>
+</body>
+</html>

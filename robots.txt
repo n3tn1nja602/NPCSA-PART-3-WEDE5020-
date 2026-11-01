@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://n3tn1nja602.github.io/NPSCA-PART-3-WEDE5020 /sitemap.xml
